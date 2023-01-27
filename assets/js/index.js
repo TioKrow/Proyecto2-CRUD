@@ -72,19 +72,7 @@ function editar(titulo) {
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <table class="table table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Titulo</th>
-                            <th scope="col">Descripcion</th>
-                            <th scope="col">Precio</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tbody">
-                        
-                    </table>
-            </div>
+            
         </div>`
 
 
