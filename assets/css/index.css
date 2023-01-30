@@ -1,6 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+.navbar{
+    background-color: antiquewhite;
+}
+
 .card-body{
     padding: 10px;
-    box-shadow: 20px 20px 15px;
+    box-shadow: 20px 20px 15px grey;
 
 }
 .form-group{
@@ -11,16 +18,35 @@ margin-top: 10px;
 margin-left: 10px;
 }
 table{
-    box-shadow: 20px 20px 15px;
+    box-shadow: 20px 20px 15px grey;
+    background-color: white;
 }
 
 textarea {
     resize: none;
 }
 
+table .btn-danger::after{
+    content: " Eliminar";
+}
+
+table .btn-success::after{
+    content: " Editar";
+}
+
+
 @media (min-width: 320px) and (max-width:425px) {
-    .card-body{
-        width: fit-content;
+    body{
+        background-color: antiquewhite;
+    }
+
+    .navbar{
+        background-color: antiquewhite;
+    }
+
+    .card{
+        box-shadow: 10px 10px 10px grey;
+
     }
 
     .form-group{
@@ -30,9 +56,21 @@ textarea {
     table {
         display: block;
         overflow-x: auto;
+        background-color: white;
+        box-shadow: 20px 20px 15px grey;
+        margin-top: 30px;
     }
 
     textarea {
         resize: none;
     }
+
+    table .btn-danger::after{
+        content: "";
+    }
+    
+    table .btn-success::after{
+        content: "";
+    }
+
 }
